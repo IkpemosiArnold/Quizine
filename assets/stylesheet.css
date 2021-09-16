@@ -1,0 +1,134 @@
+
+/*-------Font Imports-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300;400;700&display=swap');
+
+body{
+    background-color: #221E22;
+}
+h1,h2{
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+input{
+    background-color: FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+    padding: 10px 40px;
+    text-align: justify;
+}
+
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    background-color:#44355B;
+    border: solid #44355B;
+    color:#FFFFFF;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 3px 3px 2px 0px #000000;
+}
+.btn:hover{
+    box-shadow: 0px 0px 0px 0px #44355B;
+}
+#initialize-user-div{
+    height:70vh;
+}
+.text-center{
+    text-align: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang-select{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.lang-item{
+    margin: 10px;
+}
+.lang-label{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+#category-div{
+    text-align: center;
+}
+#category-options{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.category-box{
+    width: 150px;
+    height: 130px;
+    text-align: justify;
+    margin: 15px;
+   
+
+    border-radius: 10px;
+    
+}
+#box-1{
+    background-color: #DBFCFF;
+}
+#box-2{
+    background-color: #861657;
+}
+#box-3{
+    background-color: #7F96FF;
+}
+#box-4{
+    background-color: #FFA69E;
+}
+.category-box-label{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 25%;
+    padding-left: 4%;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#game-notices{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+#question-options{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.option{
+    min-width: 80vw;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+}
+/*----------     MEDIA QUERIES ----------*/
+@media screen and (max-width:767px){
+    .lang-label{
+        font-size: 2.5vw;
+    }
+    .lang-select{  
+        justify-content: center;
+        padding:0;
+    }
+    
+} 

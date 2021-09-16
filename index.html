@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Quizia</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/stylesheet.css">
+ </head>
+ <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+ <!----------Select Language (change this section to menu)--------->
+    <div class="lang-select">
+    <figure>
+      <img class="lang-item" src="assets/img/FR-flag.png" alt="French Flag, Language Select">
+      <figcaption class="lang-label">FR</figcaption>
+    </figure>   
+    <figure>
+      <img class="lang-item" src="assets/img/GB-flag.png" alt="British Flag, Language Select">
+      <figcaption class="lang-label">EN</figcaption>
+    </figure>
+    </div>
+     <!----------Enter Username--------->
+    <div id="initialize-user-div" class="flex-column flex-center">
+     <h1 class="text-center">Enter a username to start</h1>
+     <input type="text" id="username" placeholder="e.g Worldchampion 01">
+     <br>
+     <button id="start-btn" class="btn">Start</button>
+    </div>
+    <!----------Choose Category--------->
+    <div id="category-div">
+      <h2>Choose Category</h2>
+      <div id="category-options">
+        <div class="category-box" id="box-1">
+          <p class="category-box-label">Music</p>
+         </div>
+         <div class="category-box" id="box-2">
+          <p class="category-box-label">Anime</p>
+        </div>
+        <div class="category-box" id="box-3">
+          <p class="category-box-label">Sports</p>
+        </div>
+        <div class="category-box" id="box-4">
+          <p class="category-box-label">Film</p>
+        </div>
+      </div>
+    </div>
+    <!-------Main Quiz Section--------->
+    <div id="quiz-app-div">
+     <div id="game-notices">
+       <p id="question-counter">
+         Question <span id="question-number"></span>
+       </p>
+       <p id="time-counter">
+          30
+      </p>
+     </div>
+     <div id="question-options">
+      <p id="question">
+        The popular fictional detective, 'Sherlock Holmes' is known for using what style of thinking?
+      </p>
+      <p class="option">
+        Inductive
+      </p>
+      <p class="option">
+        Inductive
+      </p>
+      <p class="option">
+        Inductive
+      </p>
+      <button id="next-btn" class="btn">Next</button>
+     </div>
+
+    </div>
+    <main>
+
+    </main>
+ </body>   
+</html>
